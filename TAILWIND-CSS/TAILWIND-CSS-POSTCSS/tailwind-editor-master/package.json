@@ -1,0 +1,41 @@
+{
+  "name": "tailwind-editor",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-scss": "^2.6.1",
+    "rollup-plugin-svelte": "^5.0.0",
+    "svelte": "^3.0.0"
+  },
+  "keywords": [
+    "svelte",
+    "tailwind",
+    "wysiwyg",
+    "editor",
+    "fouita"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "description": "Svelte component to generate tailwindcss html from a notion like wysiwyg editor.",
+  "version": "0.1.35",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fouita/tailwind-editor.git"
+  },
+  "author": "fouita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fouita/tailwind-editor/issues"
+  },
+  "homepage": "https://github.com/fouita/tailwind-editor#readme"
+}

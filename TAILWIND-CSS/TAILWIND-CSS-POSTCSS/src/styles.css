@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/didot');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
